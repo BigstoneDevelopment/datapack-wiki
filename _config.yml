@@ -1,0 +1,8 @@
+title: BigStone Wiki
+description: A comprehensive guide to Bigstone, covering its features, usage, and best practices.
+theme: minima
+
+header_pages:
+  - index.md
+  - standards.md
+  - components.md
