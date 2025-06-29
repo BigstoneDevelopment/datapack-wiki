@@ -25,6 +25,7 @@ All ports will be named in this format:
 
 - Each port would have a corresponding colored concrete block under it. 
 - Locations of the port holes are in (X, Y), in which (1, 1) is the bottom left block on a 16x16 face looking from the side of a chunk. _(Clarification: Port HOLES, not the concrete position)_
+- Some ports are "dangerously incompatible," meaning the port's position overlaps with a different, more prioritized port(s), which can cause issues when next to these ports.
 
 
 ### BIN
@@ -43,10 +44,19 @@ All ports will be named in this format:
 - **Location:** IHEX-STATE at (5, 4) – OHEX-STATE at (12, 4)
 - (Under development) Used to check the state of a redblock which is currently doing an operation. The component can decide what signal strength each state is. If a component decides multiple states counts as the same value it should pulse when changing between them to indicate the state has changed (But try avoid having multiple states output the same thing). (Examples: A comparator could return the value of the state; an observer can "observe" the state to know if it has changed). You could use this output to make your bigstone circuit do certain things!
 
-### HEX-2 COMING SOON
-The port locations are still being discussed and created. LimeLight is working on it.
+### HEX-2
+- **Color:** No idea. I think it is/should be light blue.
+- **Locations:** IHEX-2 at (7, 6) and (9, 6), OHEX-2 at (8, 6) and (10, 6) Don't trust me on the y value yet tho
+- Just like HEX, but carries double the amount of data, meaning it can carry 8 bits (1 byte) of data!
 
-![Locations of each of the ports](https://raw.githubusercontent.com/CrazyH2/Bigstone/main/assets/port_locations.png)
+### BIN-8
+⚠️ **Dangerously incompatible next to:** 🟥BIN, 🟦HEX.
+- **Color:** 🟧 Orange Concrete
+- **Locations:** Coming soon
+- Carrys 8 bits of data, but is huge, so a wire can only be one way. However, it can be useful for speed over a long distance of wires, and can also save space within a redblock since you don't need to fit a HEX decoder inside your components if it uses BIN-8 instead. 
+
+(Outdated image, only includes 3 of the port types)
+![Locations of each of the ports](https://raw.githubusercontent.com/BigstoneDevelopment/datapack-wiki/main/assets/port_locations.png)
 
 # Item Port Types
 - Each port is a 2x2 space in the middle of a block, and can be on all sides. It's not labeled with a color since you can easily see if it uses water or hoppers.
@@ -84,6 +94,7 @@ East: IBIN
 West: IHEX  
 
 You could also represent this with a diagram, with colored arrows. Input arrows would point towards the block, output would point away from it. Here's the above example, this time as a diagram:  
-![Redblock diagram example](https://raw.githubusercontent.com/CrazyH2/Bigstone/main/assets/diagram_example.png)
+![Redblock diagram example](https://raw.githubusercontent.com/BigstoneDevelopment/datapack-wiki/main/assets/diagram_example.png)
 
 _Last updated: 2025-06-28T11:03:46Z_
+                      
