@@ -45,7 +45,7 @@ All ports will be named in this format:
 - (Under development) Used to check the state of a redblock which is currently doing an operation. The component can decide what signal strength each state is. If a component decides multiple states counts as the same value it should pulse when changing between them to indicate the state has changed (But try avoid having multiple states output the same thing). (Examples: A comparator could return the value of the state; an observer can "observe" the state to know if it has changed). You could use this output to make your bigstone circuit do certain things!
 
 ### HEX-2
-- **Color:** No idea. I think it is/should be light blue.
+- **Color:** 🟨 Yellow Concrete
 - **Locations:** IHEX-2 at (7, 6) and (9, 6), OHEX-2 at (8, 6) and (10, 6) Don't trust me on the y value yet tho
 - Just like HEX, but carries double the amount of data, meaning it can carry 8 bits (1 byte) of data!
 
@@ -55,7 +55,6 @@ All ports will be named in this format:
 - **Locations:** Coming soon
 - Carrys 8 bits of data, but is huge, so a wire can only be one way. However, it can be useful for speed over a long distance of wires, and can also save space within a redblock since you don't need to fit a HEX decoder inside your components if it uses BIN-8 instead. 
 
-(Outdated image, only includes 3 of the port types)
 ![Locations of each of the ports](https://raw.githubusercontent.com/BigstoneDevelopment/datapack-wiki/main/assets/port_locations.png)
 
 # Item Port Types
