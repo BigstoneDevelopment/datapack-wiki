@@ -72,7 +72,7 @@ All ports will be named in this format:
 
 ### ITEM-WATER
 - **Side Locations:**
-- IITEM > Water flowing inwards
+- IITEM > Water flowing inwards 
 - OITEM > Water flowing outwards
 - **Top/Bottom Locations:**
 - IITEM > Top of the block.
