@@ -34,7 +34,7 @@ All ports will be named in this format:
 - The default port. Used to connect redblocks together, and is the simplest port (as it does not preserve signal strength). These are made for speed.
 
 ### HEX
-- **Color:** 🟦 Blue Concrete _(To clarify, **REGULAR** BLUE, not light blue)_
+- **Color:** 🟦 **Blue** Concrete _(To clarify, **REGULAR** BLUE, not light blue)_
 - **Location:** IHEX at (5, 2) – OHEX at (12, 2)
 - A more advanced port. They preserve the signal strength from the output of the previous block. Useful for HEX calculations.
 - Recommended to have IHEX next to an IBIN to ensure compatibility with other redblocks (IBIN would set the input on that side to 15 or 0 to convert it to HEX)
@@ -46,11 +46,18 @@ All ports will be named in this format:
 
 ### HEX-2
 - **Color:** 🟨 Yellow Concrete
-- **Locations:** IHEX-2 at (7, 6) and (9, 6), OHEX-2 at (8, 6) and (10, 6) Don't trust me on the y value yet tho
+- **Locations:** IHEX-2 at (7, 6) and (9, 6), OHEX-2 at (8, 6) and (10, 6)
 - Just like HEX, but carries double the amount of data, meaning it can carry 8 bits (1 byte) of data!
 
+### BIN-LR
+- **Color:** 🟦 **Cyan** Concrete
+- **Locations** IBIN-LR at (2, 3) for 1st bit, and stack upwards for every additional bit e.g. (4, 3), (6, 3) and so on, up to 8 bits. OBIN-LR at (14, 3) for 1st bit, and stack upwards again.
+- Useful for computational components, especially since most computational circuits are vertical, so you can easily plug it right in!
+
 ### BIN-8
-⚠️ **Dangerously incompatible next to:** 🟥BIN, 🟦HEX.
+**NOTE:** This is being discontinued since it has dangerous conflict, and a better one exists now called BIN-LR. Please use that for all future builds when possible!
+
+⚠️ **Dangerously incompatible next to:** 🟥BIN, 🟦HEX, 🟦BIN-LR
 - **Color:** 🟧 Orange Concrete
 - **Locations:** Coming soon
 - Carrys 8 bits of data, but is huge, so a wire can only be one way. However, it can be useful for speed over a long distance of wires, and can also save space within a redblock since you don't need to fit a HEX decoder inside your components if it uses BIN-8 instead. 
@@ -94,6 +101,11 @@ West: IHEX
 
 You could also represent this with a diagram, with colored arrows. Input arrows would point towards the block, output would point away from it. Here's the above example, this time as a diagram:  
 ![Redblock diagram example](https://raw.githubusercontent.com/BigstoneDevelopment/datapack-wiki/main/assets/diagram_example.png)
+
+# SECTION 3: RULES  
+NOTE: Not all the rules are here yet  
+- **Redblocks need to be able to work when suspended in the air.** This means that no redstone can be placed at y level 1 since its support is out of bounds.
+- **Redblocks cannot power things outside of it other than through ports** to prevent accidental conflict. So don't power blocks through roofs or walls.
 
 _Last updated: 2025-06-28T11:03:46Z_
                       
