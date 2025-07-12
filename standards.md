@@ -62,6 +62,12 @@ All ports will be named in this format:
 - **Locations:** Coming soon
 - Carrys 8 bits of data, but is huge, so a wire can only be one way. However, it can be useful for speed over a long distance of wires, and can also save space within a redblock since you don't need to fit a HEX decoder inside your components if it uses BIN-8 instead. 
 
+### RAIL
+It can carry items but it's a port with colors so it belongs here ig
+- **Color:** 🟫 Brown Concrete
+- **Locations:** IRAIL at (8, 2) – ORAIL at (9, 2)
+- The IRAIL is regular rail, and ORAIL is powered rail. This port can be used to transfer items (or mobs/players) using minecarts.
+
 NOTE: Image doesn't have RAIL ports (yet)
 ![Locations of each of the ports](https://raw.githubusercontent.com/BigstoneDevelopment/datapack-wiki/main/assets/bigstone_ports_updated.png)
 
@@ -86,12 +92,6 @@ NOTE: Image doesn't have RAIL ports (yet)
 - IITEM > Top of the block.
 - OITEM > Bottom of the block.
 - Transports items using water streams. It is faster, but unlike ITEM-HOPPER, it cannot be multidirectional on the sides.
-
-### RAIL
-I guess this can technically carry items? So it belongs here ig. lmk if you think it should be in the section above
-- **Color:** 🟫 Brown Concrete
-- **Locations:** IRAIL at (8, 2) – ORAIL at (9, 2)
-- The IRAIL is regular rail, and ORAIL is powered rail. This port can be used to transfer items (or mobs/players) using minecarts.
 
 _IMAGES COMING SOON_
 
