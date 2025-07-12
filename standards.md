@@ -69,7 +69,7 @@ It can carry items but it's a port with colors so it belongs here ig
 - The IRAIL is regular rail, and ORAIL is powered rail. This port can be used to transfer items (or mobs/players) using minecarts.
 
 NOTE: Image doesn't have RAIL ports (yet)
-![Locations of each of the ports](https://raw.githubusercontent.com/BigstoneDevelopment/datapack-wiki/main/assets/bigstone_ports_updated.png)
+![Locations of each of the ports](https://raw.githubusercontent.com/BigstoneDevelopment/datapack-wiki/main/assets/bigstone_ports_new.png)
 
 # Item Port Types
 - Each port is a 2x2 space in the middle of a block, and can be on all sides. It's not labeled with a color since you can easily see if it uses water or hoppers.
