@@ -31,18 +31,18 @@ All ports will be named in this format:
 ### BIN
 - **Color:** 🟥 Red Concrete
 - **Location:** IBIN at (7, 2) – OBIN at (10, 2) 
-- The default port. Used to connect redblocks together, and is the simplest port (as it does not preserve signal strength). These are made for speed.
+- The default port. Used to connect components together, and is the simplest port (as it does not preserve signal strength). These are made for speed.
 
 ### HEX
 - **Color:** 🟦 **Blue** Concrete _(To clarify, **REGULAR** BLUE, not light blue)_
 - **Location:** IHEX at (5, 2) – OHEX at (12, 2)
 - A more advanced port. They preserve the signal strength from the output of the previous block. Useful for HEX calculations.
-- Recommended to have IHEX next to an IBIN to ensure compatibility with other redblocks (IBIN would set the input on that side to 15 or 0 to convert it to HEX)
+- Recommended to have IHEX next to an IBIN to ensure compatibility with other components (IBIN would set the input on that side to 15 or 0 to convert it to HEX)
 
 ### HEX-STATE
 - **Color:** 🟩 Green Concrete
 - **Location:** IHEX-STATE at (5, 4) – OHEX-STATE at (12, 4)
-- (Under development) Used to check the state of a redblock which is currently doing an operation. The component can decide what signal strength each state is. If a component decides multiple states counts as the same value it should pulse when changing between them to indicate the state has changed (But try avoid having multiple states output the same thing). (Examples: A comparator could return the value of the state; an observer can "observe" the state to know if it has changed). You could use this output to make your bigstone circuit do certain things!
+- (Under development) Used to check the state of a component which is currently doing an operation. The component can decide what signal strength each state is. If a component decides multiple states counts as the same value it should pulse when changing between them to indicate the state has changed (But try avoid having multiple states output the same thing). (Examples: A comparator could return the value of the state; an observer can "observe" the state to know if it has changed). You could use this output to make your bigstone circuit do certain things!
 
 ### HEX-2
 - **Color:** 🟨 Yellow Concrete
@@ -60,7 +60,7 @@ All ports will be named in this format:
 ⚠️ **Dangerously incompatible next to:** 🟥BIN, 🟦HEX, 🟦BIN-LR, 🟫RAIL (wow that's a lot)
 - **Color:** 🟧 Orange Concrete
 - **Locations:** Coming soon
-- Carrys 8 bits of data, but is huge, so a wire can only be one way. However, it can be useful for speed over a long distance of wires, and can also save space within a redblock since you don't need to fit a HEX decoder inside your components if it uses BIN-8 instead. 
+- Carrys 8 bits of data, but is huge, so a wire can only be one way. However, it can be useful for speed over a long distance of wires, and can also save space within a component since you don't need to fit a HEX decoder inside your components if it uses BIN-8 instead. 
 
 ### RAIL
 It can carry items but it's a port with colors so it belongs here ig
@@ -82,7 +82,7 @@ NOTE: Image doesn't have RAIL ports (yet)
 - **Top/Bottom Locations:**
 - IITEM > Top of the block.
 - OITEM > Bottom of the block.
-- Transports items using hoppers. Reccomended to use BITEM on the sides as it is multidirectional. If you want speed, try to use ITEM-WATER instead of IITEM/OITEM-HOPPER when possible
+- Transports items using hoppers. Recommended to use BITEM on the sides as it is multidirectional. If you want speed, try to use ITEM-WATER instead of IITEM/OITEM-HOPPER when possible
 
 ### ITEM-WATER
 - **Side Locations:**
@@ -99,9 +99,9 @@ _IMAGES COMING SOON_
 - MBIN red blah blah blah (DM @Spin4team4096 "easter egg whauidnsair" for... air ig)
 
 # SECTION 2: NAMING SCHEME
-When sharing a redblock, try to stick to this format:
+When sharing a component, try to stick to this format:
 
-[Redblock name]  
+[Component name]  
 [Description here]  
 
 North: OHEX  
@@ -110,12 +110,12 @@ East: IBIN
 West: IHEX  
 
 You could also represent this with a diagram, with colored arrows. Input arrows would point towards the block, output would point away from it. Here's the above example, this time as a diagram:  
-![Redblock diagram example](https://raw.githubusercontent.com/BigstoneDevelopment/datapack-wiki/main/assets/diagram_example.png)
+![component diagram example](https://raw.githubusercontent.com/BigstoneDevelopment/datapack-wiki/main/assets/diagram_example.png)
 
 # SECTION 3: RULES  
 NOTE: Not all the rules are here yet  
-- **Redblocks need to be able to work when suspended in the air.** This means that no redstone can be placed at y level 1 since its support is out of bounds.
-- **Redblocks cannot power things outside of it other than through ports** to prevent accidental conflict. So don't power blocks through roofs or walls.
+- **components need to be able to work when suspended in the air.** This means that no redstone can be placed at y level 1 since its support is out of bounds.
+- **components cannot power things outside of it other than through ports** to prevent accidental conflict. So don't power blocks through roofs or walls.
 
 _Last updated: 2025-06-28T11:03:46Z_
                       
