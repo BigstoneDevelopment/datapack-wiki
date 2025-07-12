@@ -75,7 +75,7 @@ All ports will be named in this format:
 - **Top/Bottom Locations:**
 - IITEM > Top of the block.
 - OITEM > Bottom of the block.
-- Transports items using hoppers. Reccomended to use BITEM on the sides as it is multidirectional. If you want speed, try to use ITEM-WATER instead of IITEM/OITEM-HOPPER when possible
+- Transports items using hoppers. Recommended to use BITEM on the sides as it is multidirectional. If you want speed, try to use ITEM-WATER instead of IITEM/OITEM-HOPPER when possible
 
 ### ITEM-WATER
 - **Side Locations:**
