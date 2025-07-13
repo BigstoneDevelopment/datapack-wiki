@@ -51,7 +51,7 @@ All ports will be named in this format:
 
 ### BIN-LR
 - **Color:** 🟦 **Cyan** Concrete
-- **Locations** IBIN-LR at (2, 3) for 1st bit, and stack upwards for every additional bit e.g. (4, 3), (6, 3) and so on, up to 8 bits. OBIN-LR at (14, 3) for 1st bit, and stack upwards again.
+- **Locations** IBIN-LR at (2, 3) for 1st bit, and stack upwards for every additional bit e.g. (4, 3), (6, 3) and so on, up to 8 bits (e.g. BIN-8LR). OBIN-LR at (14, 3) for 1st bit, and stack upwards again.
 - Useful for computational components, especially since most computational circuits are vertical, so you can easily plug it right in!
 
 ### BIN-8
@@ -68,7 +68,6 @@ It can carry items but it's a port with colors so it belongs here ig
 - **Locations:** IRAIL at (8, 2) – ORAIL at (9, 2)
 - The IRAIL is regular rail, and ORAIL is powered rail. This port can be used to transfer items (or mobs/players) using minecarts.
 
-NOTE: Image doesn't have RAIL ports (yet)
 ![Locations of each of the ports](https://raw.githubusercontent.com/BigstoneDevelopment/datapack-wiki/main/assets/bigstone_ports_new.png)
 
 # Item Port Types
@@ -95,8 +94,23 @@ NOTE: Image doesn't have RAIL ports (yet)
 
 _IMAGES COMING SOON_
 
-# Microstone Port Types COMING SOON
-- MBIN red blah blah blah (DM @Spin4team4096 "easter egg whauidnsair" for... air ig)
+# Microstone Port Types
+- Microstone is a variant of Bigstone, but the components are 8x8x8 instead of 16x16x16. Because of this, they use a different port system.
+- They use the same colors as their Bigstone counterparts (to save color slots), but they are in different locations.
+- Since Microstone is a different system to bigstone, overlapping ports with Bigstone is obvious and will not be included in the descriptions.
+- A lot of Micro ports do overlap with other Micro ports as there is limited space. This will be included in the descriptions.  
+
+### MBIN
+⚠️ **Dangerously incompatible next to:** 🟦MHEX
+- **Color:** 🟥 Red Concrete
+- **Location:** IMBIN at (3, 2) – OMBIN at (6, 2)
+- The Micro version of the BIN port.
+
+### MHEX
+⚠️ **Dangerously incompatible next to:** 🟥MHEX
+- **Color:** 🟦 **Blue** Concrete _(To clarify, **REGULAR** BLUE, not light blue)_
+- **Location:** IMHEX at (3, 2) – OMHEX at (6, 2)
+- The Micro version of the HEX port.
 
 # SECTION 2: NAMING SCHEME
 When sharing a component, try to stick to this format:
