@@ -63,7 +63,7 @@ All ports will be named in this format:
 - Carrys 8 bits of data, but is huge, so a wire can only be one way. However, it can be useful for speed over a long distance of wires, and can also save space within a component since you don't need to fit a HEX decoder inside your components if it uses BIN-8 instead. 
 
 ### RAIL
-It can carry items but it's a port with colors so it belongs here ig
+**WARNING:** Make sure you put these next to components that use the same type of minecart. Otherwise minecart types can mix and cause issues.
 - **Color:** 🟫 Brown Concrete
 - **Locations:** IRAIL at (8, 2) – ORAIL at (9, 2)
 - The IRAIL is regular rail, and ORAIL is powered rail. This port can be used to transfer items (or mobs/players) using minecarts.
