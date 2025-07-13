@@ -107,7 +107,7 @@ _IMAGES COMING SOON_
 - The Micro version of the BIN port.
 
 ### MHEX
-⚠️ **Dangerously incompatible next to:** 🟥MHEX
+⚠️ **Dangerously incompatible next to:** 🟥MBIN
 - **Color:** 🟦 **Blue** Concrete _(To clarify, **REGULAR** BLUE, not light blue)_
 - **Location:** IMHEX at (3, 2) – OMHEX at (6, 2)
 - The Micro version of the HEX port.
