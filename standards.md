@@ -30,6 +30,7 @@ All ports will be named in this format:
 
 ### BIN
 - **Color:** 🟥 Red Concrete
+- **Made By:** Daxis1
 - **Location:** IBIN at (7, 2) – OBIN at (10, 2) 
 - The default port. Used to connect components together, and is the simplest port (as it does not preserve signal strength). These are made for speed.
 
