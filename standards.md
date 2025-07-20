@@ -149,5 +149,5 @@ NOTE: Not all the rules are here yet
 - **components need to be able to work when suspended in the air.** This means that no redstone can be placed at y level 1 since its support is out of bounds.
 - **components cannot power things outside of it other than through ports** to prevent accidental conflict. So don't power blocks through roofs or walls.
 
-_Last updated: 2025-06-28T11:03:46Z_
+_Last updated: 2025-07-20 at 17:58:08_
                       
