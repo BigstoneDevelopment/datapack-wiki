@@ -111,12 +111,14 @@ _IMAGES COMING SOON_
 ### MBIN
 ⚠️ **Dangerously incompatible next to:** 🟦MHEX
 - **Color:** 🟥 Red Concrete
+- **Made By:** GameCobra
 - **Location:** IMBIN at (3, 2) – OMBIN at (6, 2)
 - The Micro version of the BIN port.
 
 ### MHEX
 ⚠️ **Dangerously incompatible next to:** 🟥MBIN
 - **Color:** 🟦 **Blue** Concrete _(To clarify, **REGULAR** BLUE, not light blue)_
+- **Made By:** GameCobra
 - **Location:** IMHEX at (3, 2) – OMHEX at (6, 2)
 - The Micro version of the HEX port.
 
