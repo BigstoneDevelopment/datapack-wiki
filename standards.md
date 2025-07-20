@@ -54,6 +54,7 @@ All ports will be named in this format:
 
 ### BIN-LR
 - **Color:** 🟦 **Cyan** Concrete
+- **Made By:** Spin4team4096
 - **Locations** IBIN-LR at (2, 3) for 1st bit, and stack upwards for every additional bit e.g. (4, 3), (6, 3) and so on, up to 8 bits (e.g. BIN-8LR). OBIN-LR at (14, 3) for 1st bit, and stack upwards again.
 - Useful for computational components, especially since most computational circuits are vertical, so you can easily plug it right in!
 
@@ -68,6 +69,7 @@ All ports will be named in this format:
 ### RAIL
 **WARNING:** Make sure you put these next to components that use the same type of minecart. Otherwise minecart types can mix and cause issues.
 - **Color:** 🟫 Brown Concrete
+- **Made By:** Spin4team4096
 - **Locations:** IRAIL at (8, 2) – ORAIL at (9, 2)
 - The IRAIL is regular rail, and ORAIL is powered rail. This port can be used to transfer items (or mobs/players) using minecarts.
 
