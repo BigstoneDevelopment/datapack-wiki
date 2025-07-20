@@ -36,7 +36,7 @@ All ports will be named in this format:
 
 ### HEX
 - **Color:** 🟦 **Blue** Concrete _(To clarify, **REGULAR** BLUE, not light blue)_
-- **Made By:** the_1outof10_dentists
+- **Made By:** the_1outof10_dentists 
 - **Location:** IHEX at (5, 2) – OHEX at (12, 2)
 - A more advanced port. They preserve the signal strength from the output of the previous block. Useful for HEX calculations.
 - Recommended to have IHEX next to an IBIN to ensure compatibility with other components (IBIN would set the input on that side to 15 or 0 to convert it to HEX)
