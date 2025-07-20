@@ -26,7 +26,7 @@ All ports will be named in this format:
 - Compliant: a port/component that is completely compliment!
 - Semistandard: incompatible with some ports, or a less used/more niche version of something else, or a separate size.
 - Extended Semistandard: compliant/semistandard but it is allowed to include modded blocks/items/entities.  An example would be create rotational power based ports or components.
-- Noncompliant: it's not compliant as it doesn't fit under any other categories.  Does something already done but way way worse, or completely useless.
+- Noncompliant: it's not compliant as it doesn't fit under any other categories, does something already done but way way worse, or completely useless.
 
 # Redstone Port Types
 
