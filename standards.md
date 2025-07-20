@@ -21,6 +21,13 @@ All ports will be named in this format:
 - **[#PORTS]** > The number of ports it has, as a number. If it only has 1 port, you don't have to include this tag! _(e.g. Just BIN instead of BIN-1)_
 - **[ROLE]** > Most ports will be SD (Standard), but ports with specific roles will have different colors and have a different named tag. For example, HEX-STATE. If the port is SD you don't have to include this tag! _(e.g. just HEX instead of HEX-SD)_
 
+# Port compliance ratings:
+
+- Compliant: a port/component that is completely compliment!
+- Semistandard: incompatible with some ports, or a less used/more niche version of something else, or a separate size.
+- Extended Semistandard: compliant/semistandard but it is allowed to include modded blocks/items/entities.  An example would be create rotational power based ports or components.
+- Noncompliant: it's not compliant as it doesn't fit under any other categories.  Does something already done but way way worse, or completely useless.
+
 # Redstone Port Types
 
 - Each port would have a corresponding colored concrete block under it. 
