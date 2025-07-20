@@ -43,6 +43,7 @@ All ports will be named in this format:
 
 ### HEX-STATE
 - **Color:** 🟩 Green Concrete
+- **Made By:** xoliks 
 - **Location:** IHEX-STATE at (5, 4) – OHEX-STATE at (12, 4)
 - (Under development) Used to check the state of a component which is currently doing an operation. The component can decide what signal strength each state is. If a component decides multiple states counts as the same value it should pulse when changing between them to indicate the state has changed (But try avoid having multiple states output the same thing). (Examples: A comparator could return the value of the state; an observer can "observe" the state to know if it has changed). You could use this output to make your bigstone circuit do certain things!
 
