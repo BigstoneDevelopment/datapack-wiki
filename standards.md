@@ -31,12 +31,14 @@ All ports will be named in this format:
 ### BIN
 - **Color:** 🟥 Red Concrete
 - **Made By:** Daxis1
+- **Status:** Compliant
 - **Location:** IBIN at (7, 2) – OBIN at (10, 2) 
 - The default port. Used to connect components together, and is the simplest port (as it does not preserve signal strength). These are made for speed.
 
 ### HEX
 - **Color:** 🟦 **Blue** Concrete _(To clarify, **REGULAR** BLUE, not light blue)_
 - **Made By:** gingrspacecadet
+- **Status:** Compliant
 - **Location:** IHEX at (5, 2) – OHEX at (12, 2)
 - A more advanced port. They preserve the signal strength from the output of the previous block. Useful for HEX calculations.
 - Recommended to have IHEX next to an IBIN to ensure compatibility with other components (IBIN would set the input on that side to 15 or 0 to convert it to HEX)
@@ -44,27 +46,29 @@ All ports will be named in this format:
 ### HEX-STATE
 - **Color:** 🟩 Green Concrete
 - **Made By:** guigui, Spin4team4096
+- **Status:** Compliant
 - **Location:** IHEX-STATE at (5, 4) – OHEX-STATE at (12, 4)
 - (Under development) Used to check the state of a component which is currently doing an operation. The component can decide what signal strength each state is. If a component decides multiple states counts as the same value it should pulse when changing between them to indicate the state has changed (But try avoid having multiple states output the same thing). (Examples: A comparator could return the value of the state; an observer can "observe" the state to know if it has changed). You could use this output to make your bigstone circuit do certain things!
 
 ### HEX-2
 - **Color:** 🟨 Yellow Concrete
 - **Made By:** LimeLight
+- **Status:** Compliant
 - **Locations:** IHEX-2 at (7, 6) and (9, 6), OHEX-2 at (8, 6) and (10, 6)
 - Just like HEX, but carries double the amount of data, meaning it can carry 8 bits (1 byte) of data!
 
 ### BIN-LR
 - **Color:** 🟦 **Cyan** Concrete
 - **Made By:** Spin4team4096
+- **Status:** Compliant
 - **Locations** IBIN-LR at (2, 3) for 1st bit, and stack upwards for every additional bit e.g. (4, 3), (6, 3) and so on, up to 8 bits (e.g. BIN-8LR). OBIN-LR at (14, 3) for 1st bit, and stack upwards again.
 - Useful for computational components, especially since most computational circuits are vertical, so you can easily plug it right in!
 
 ### BIN-8
-**NOTE:** This is being considered semistandard since it has dangerous conflict, and a better one exists now called BIN-LR. Please use that for all future builds when possible!
-
 ⚠️ **Dangerously incompatible next to:** 🟥BIN, 🟦HEX, 🟦BIN-LR, 🟫RAIL (wow that's a lot)
 - **Color:** 🟧 Orange concrete
 - **Made By:** Limelight
+- **Status:** Semistandard
 - **Locations:** Coming soon
 - Carrys 8 bits of data, but is huge, so a wire can only be one way. However, it can be useful for speed over a long distance of wires, and can also save space within a component since you don't need to fit a HEX decoder inside your components if it uses BIN-8 instead. 
 
@@ -72,6 +76,7 @@ All ports will be named in this format:
 **WARNING:** Make sure you put these next to components that use the same type of minecart. Otherwise minecart types can mix and cause issues.
 - **Color:** 🟫 Brown Concrete
 - **Made By:** Spin4team4096
+- **Status:** Compliant
 - **Locations:** IRAIL at (8, 2) – ORAIL at (9, 2)
 - The IRAIL is regular rail, and ORAIL is powered rail. This port can be used to transfer items (or mobs/players) using minecarts.
 
@@ -80,6 +85,7 @@ All ports will be named in this format:
 # Item Port Types
 - Each port is a 2x2 space in the middle of a block, and can be on all sides. It's not labeled with a color since you can easily see if it uses water or hoppers.
 - **All Made By:** Diax
+- **All Status:** Compliant
 
 ### ITEM-HOPPER
 - **Side Locations:** 
@@ -112,6 +118,7 @@ _IMAGES COMING SOON_
 ⚠️ **Dangerously incompatible next to:** 🟦MHEX
 - **Color:** 🟥 Red Concrete
 - **Made By:** GameCobra
+- **Status:** Semistandard
 - **Location:** IMBIN at (3, 2) – OMBIN at (6, 2)
 - The Micro version of the BIN port.
 
@@ -119,6 +126,7 @@ _IMAGES COMING SOON_
 ⚠️ **Dangerously incompatible next to:** 🟥MBIN
 - **Color:** 🟦 **Blue** Concrete _(To clarify, **REGULAR** BLUE, not light blue)_
 - **Made By:** GameCobra
+- **Status:** Semistandard
 - **Location:** IMHEX at (3, 2) – OMHEX at (6, 2)
 - The Micro version of the HEX port.
 
