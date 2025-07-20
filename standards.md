@@ -59,10 +59,11 @@ All ports will be named in this format:
 - Useful for computational components, especially since most computational circuits are vertical, so you can easily plug it right in!
 
 ### BIN-8
-**NOTE:** This is being discontinued since it has dangerous conflict, and a better one exists now called BIN-LR. Please use that for all future builds when possible!
+**NOTE:** This is being considered semistandard since it has dangerous conflict, and a better one exists now called BIN-LR. Please use that for all future builds when possible!
 
 ⚠️ **Dangerously incompatible next to:** 🟥BIN, 🟦HEX, 🟦BIN-LR, 🟫RAIL (wow that's a lot)
-- **Color:** 🟧 Orange Concrete
+- **Color:** 🟧 Orange concrete
+- **Made By:** Limelight
 - **Locations:** Coming soon
 - Carrys 8 bits of data, but is huge, so a wire can only be one way. However, it can be useful for speed over a long distance of wires, and can also save space within a component since you don't need to fit a HEX decoder inside your components if it uses BIN-8 instead. 
 
