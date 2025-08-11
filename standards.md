@@ -39,7 +39,7 @@ All ports will be named in this format:
 - **Color:** 🟥 Red Concrete
 - **Made By:** Daxis1
 - **Status:** Compliant
-- **Location:** IBIN at (7, 2) – OBIN at (10, 2) 
+- **Location:** IBIN at (7, 2) – OBIN at (10, 2)
 - The default port. Used to connect components together, and is the simplest port (as it does not preserve signal strength). These are made for speed.
 
 ### HEX
@@ -78,6 +78,13 @@ All ports will be named in this format:
 - **Status:** Semistandard
 - **Locations:** Coming soon
 - Carrys 8 bits of data, but is huge, so a wire can only be one way. However, it can be useful for speed over a long distance of wires, and can also save space within a component since you don't need to fit a HEX decoder inside your components if it uses BIN-8 instead. 
+
+### SOUND
+- **Color:** 🟪 Purple Concrete
+- **Made By:** BastienA and Xoliks
+- **Status:** Compliant
+- **Location:** ISOUND at (7,4) – OSOUND at (10,4)
+- A wireless port using sound and skulk sensors to transfer data.
 
 ### RAIL
 **WARNING:** Make sure you put these next to components that use the same type of minecart. Otherwise minecart types can mix and cause issues.
