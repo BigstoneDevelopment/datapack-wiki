@@ -13,4 +13,4 @@ Please check the components on their respective repository:
 - [Logic Components](https://github.com/BigstoneDevelopment/logic-components-addon)
 - [Building Blocks Components](https://github.com/BigstoneDevelopment/building-blocks-addon)
 
-_Last updated: 12/08/2025 at 19:08:54.536 UTC_
+_Last updated: 12/08/2025 at 19:15:21.692 UTC_
