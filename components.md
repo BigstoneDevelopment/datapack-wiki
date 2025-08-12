@@ -10,4 +10,4 @@ Please check the components on their respective repository:
 - [Logic components](https://github.com/BigstoneDevelopment/logic-components-addon)
 - [Building Blocks components](https://github.com/BigstoneDevelopment/building-blocks-addon)
 
-_Last updated: 2025-06-28T20:34:54Z_
+_Last updated: 2025-08-12T16:40:01Z_
