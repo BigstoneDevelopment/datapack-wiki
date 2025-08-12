@@ -20,7 +20,7 @@ jobs:
 
       - name: Get current UTC time
         id: get-time
-        run: echo "time=$(date -u +'%Y-%m-%d, %H:%M:%S.%f UTC')" >> "$GITHUB_OUTPUT"
+        run: echo "time=$(date -u +'%Y-%m-%d, %H:%M:%S.%s%N UTC')" >> "$GITHUB_OUTPUT"
 
       - name: Replace last line of each .md file
         run: |
