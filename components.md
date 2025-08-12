@@ -3,8 +3,6 @@ title: Components
 layout: default
 ---
 
-<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-
 > _**The Datapack is currently under revision; these component addons are using a deprecated format.**_
 
 Please check the components on their respective repository:
