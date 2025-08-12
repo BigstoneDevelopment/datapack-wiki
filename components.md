@@ -2,6 +2,7 @@
 title: Components
 layout: default
 ---
+<link rel="shortcut icon" type="image/png" href="assets/favicon.png">
 
 > _**The Datapack is currently under revision; these component addons are using a deprecated format.**_
 

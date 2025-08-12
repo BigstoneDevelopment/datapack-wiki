@@ -2,6 +2,7 @@
 title: Home
 layout: default
 ---
+<link rel="shortcut icon" type="image/png" href="assets/favicon.png">
 
 # Welcome to the Bigstone Wiki!
 
