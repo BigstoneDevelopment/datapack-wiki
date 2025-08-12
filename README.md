@@ -1,4 +1,4 @@
 # datapack-wiki
 A wiki for Bigstone Sandbox! A easy to use building tool for Bigstone components.
 
-_Last updated: 12/08/2025 at 19:53:53.216 UTC_
+_Last updated: 12/08/2025 at 19:55:17.083 UTC_
