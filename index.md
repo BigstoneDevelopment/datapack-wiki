@@ -1,8 +1,10 @@
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
 ---
 title: Home
 layout: default
 ---
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
 # Welcome to the Bigstone Wiki!
 
 ## **What is Bigstone?**
