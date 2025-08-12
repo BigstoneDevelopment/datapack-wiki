@@ -1,9 +1,10 @@
-<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-
 ---
 title: Standards
 layout: default
 ---
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
 # Standards
 
 > _**This file contains all the required standards for components to get it accepted into the Datapack.**_
