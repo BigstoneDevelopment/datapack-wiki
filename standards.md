@@ -4,12 +4,11 @@ layout: default
 ---
 # Standards
 
-**This file contains all the standards for components required to get it accepted into the datapack.**
-
+> _**This file contains all the required standards for components to get it accepted into the Datapack.**_
 
 
 # SECTION 1: PORTS
-# Port Format
+## Port Format
 All ports will be named in this format:
 
 `[DIR][TYPE]-[#PORTS][ROLE]`
@@ -21,14 +20,14 @@ All ports will be named in this format:
 - **[#PORTS]** > The number of ports it has, as a number. If it only has 1 port, you don't have to include this tag! _(e.g. Just BIN instead of BIN-1)_
 - **[ROLE]** > Most ports will be SD (Standard), but ports with specific roles will have different colors and have a different named tag. For example, HEX-STATE. If the port is SD you don't have to include this tag! _(e.g. just HEX instead of HEX-SD)_
 
-# Port compliance ratings
+## Port compliance ratings
 
 - **Compliant:** A port/component that is completely compliant!
 - **Semistandard:** Incompatible with some ports, or a less used/more niche version of something else, or a separate size.
 - **Extended Semistandard:** Compliant/semistandard but it is allowed to include modded blocks/items/entities.  An example would be create rotational power based ports or components.
 - **Noncompliant:** It's not compliant as it doesn't fit under any other categories, does something already done but way way worse, or completely useless.
 
-# Redstone Port Types
+## Redstone Port Types
 
 - Each port would have a corresponding colored concrete block under it. 
 - Locations of the port holes are in (X, Y), in which (1, 1) is the bottom left block on a 16x16 face looking from the side of a chunk. _(Clarification: Port HOLES, not the concrete position)_
