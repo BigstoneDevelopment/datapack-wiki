@@ -1,3 +1,5 @@
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
 ---
 title: Components
 layout: default
