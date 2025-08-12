@@ -161,7 +161,7 @@ You could also represent this with a diagram, with colored arrows. Input arrows 
 NOTE: Not all the rules are here yet  
 - **components need to be able to work when suspended in the air.** This means that no redstone can be placed at y level 1 since its support is out of bounds.
 - **components cannot power things outside of it other than through ports** to prevent accidental conflict. So don't power blocks through roofs or walls.
-- **modded components can have a status of extended semistandard at the highest** to prevent confusion and make sure people dont try to use them with vanilla.
+- **modded components can have a status of extended semistandard at the highest** to prevent confusion and make sure people don't try to use them with vanilla.
                       
 
 _Last updated: 12/08/2025 at 18:03:00.474 UTC_
