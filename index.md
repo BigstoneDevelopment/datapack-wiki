@@ -37,4 +37,4 @@ If you are attempting to make your own Bigstone components compatible with mine,
 By all means though, feel free to come up with your own standard if you so wish! That's the great thing about Bigstone: you have the freedom to do almost anything with your Bigstone. Just make sure to let others know what system you use.
 
 
-_Last updated: 2025-08-12T16:41:15Z_
+_Last updated: 2025-08-12, 16:45:39_
