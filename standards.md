@@ -185,4 +185,4 @@ NOTE: Not all the rules are here yet
 - **components cannot power things outside of it other than through ports** to prevent accidental conflict. So don't power blocks through roofs or walls.
 - **modded components can have a status of extended semistandard at the highest** to prevent confusion and make sure people don't try to use them with vanilla.
 
-_Last updated: 12/08/2025 at 20:01:16.713 UTC_
+_Last updated: 12/08/2025 at 20:12:21.703 UTC_
