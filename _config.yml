@@ -1,7 +1,6 @@
 title: Bigstone Wiki
 description: A comprehensive guide to Bigstone, covering its features, usage, and best practices.
 theme: minima
-favicon: assets/favicon.ico
 
 header_pages:
   - index.md
