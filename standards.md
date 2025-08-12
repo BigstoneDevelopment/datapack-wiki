@@ -122,11 +122,11 @@ All ports will be named in this format:
 
 _IMAGES COMING SOON_
 
-# Microstone Port Types
-- Microstone is a variant of Bigstone, but the components are 8x8x8 instead of 16x16x16. Because of this, they use a different port system.
+# Mediumstone Port Types
+- Mediumstone is a variant of Bigstone, but the components are 8x8x8 instead of 16x16x16. Because of this, they use a different port system.
 - They use the same colors as their Bigstone counterparts (to save color slots), but they are in different locations.
-- Since Microstone is a different system to bigstone, overlapping ports with Bigstone is obvious and will not be included in the descriptions.
-- A lot of Micro ports do overlap with other Micro ports as there is limited space. This will be included in the descriptions.  
+- Since Mediumstone is a different system to bigstone, overlapping ports with Bigstone is obvious and will not be included in the descriptions.
+- A lot of Medium ports do overlap with other Medium ports as there is limited space. This will be included in the descriptions.  
 
 ### MBIN
 ⚠️ **Dangerously incompatible next to:** 🟦MHEX
@@ -134,7 +134,7 @@ _IMAGES COMING SOON_
 - **Made By:** GameCobra
 - **Status:** Semistandard
 - **Location:** IMBIN at (3, 2) – OMBIN at (6, 2)
-- The Micro version of the BIN port.
+- The Medium version of the BIN port.
 
 ### MHEX
 ⚠️ **Dangerously incompatible next to:** 🟥MBIN
@@ -142,7 +142,7 @@ _IMAGES COMING SOON_
 - **Made By:** GameCobra
 - **Status:** Semistandard
 - **Location:** IMHEX at (3, 2) – OMHEX at (6, 2)
-- The Micro version of the HEX port.
+- The Medium version of the HEX port.
 
 # SECTION 2: NAMING SCHEME
 When sharing a component, try to stick to this format:
