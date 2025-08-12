@@ -20,7 +20,7 @@ All ports will be named in this format:
 - **[#PORTS]** > The number of ports it has, as a number. If it only has 1 port, you don't have to include this tag! _(e.g. Just BIN instead of BIN-1)_
 - **[ROLE]** > Most ports will be SD (Standard), but ports with specific roles will have different colors and have a different named tag. For example, HEX-STATE. If the port is SD you don't have to include this tag! _(e.g. just HEX instead of HEX-SD)_
 
-## Port compliance ratings
+## Port Compliance Ratings
 
 - **Compliant:** A port/component that is completely compliant!
 - **Semistandard:** Incompatible with some ports, or a less used/more niche version of something else, or a separate size.
