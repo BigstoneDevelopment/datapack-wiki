@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-## Welcome to the Bigstone Wiki
+# Welcome to the Bigstone Wiki
 
 ## **What is Bigstone?**
 
