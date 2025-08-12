@@ -81,7 +81,7 @@ All ports will be named in this format:
 
 ### SOUND
 - **Color:** 🟪 Purple Concrete
-- **Made By:** BastienA and Xoliks
+- **Made By:** BastienA, Xoliks
 - **Status:** Compliant
 - **Location:** ISOUND at (7,4) – OSOUND at (10,4)
 - A wireless port using sound and skulk sensors to transfer data.
