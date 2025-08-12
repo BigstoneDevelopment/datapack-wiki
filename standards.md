@@ -164,4 +164,4 @@ NOTE: Not all the rules are here yet
 - **modded components can have a status of extended semistandard at the highest** to prevent confusion and make sure people dont try to use them with vanilla.
                       
 
-_Last updated: 2025-08-12, 17:57:49.1755021469371543825 cut -b1-13 UTC_
+_Last updated: 2025-08-12, 17:59:21,703 UTC_
