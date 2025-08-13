@@ -3,6 +3,6 @@ description: A comprehensive guide to Bigstone, covering its features, usage, an
 theme: minima
 
 header_pages:
-  - index.md
-  - standards.md
-  - components.md
+  - pages/index.md
+  - pages/standards.md
+  - pages/components.md
