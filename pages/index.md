@@ -56,4 +56,4 @@ If you are planning to make your own Bigstone components, we recommend you follo
 
 That being said, you are welcome to come up with your own standard, or, better yet, [contribute to our standard](https://github.com/BigstoneDevelopment/datapack-wiki).
 
-_Last updated: 12/08/2025 at 20:20:40.610 UTC_
+_Last updated: 15/08/2025 at 02:13:40.067 UTC_
